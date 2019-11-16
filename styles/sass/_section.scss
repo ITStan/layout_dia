@@ -1,0 +1,18 @@
+.section {
+  background-color: $bg-color;
+
+  &_light {
+    background-color: $light-color;
+  }
+
+  &_bright {
+    background-color: $bright-color;
+  }
+
+  &__container {
+    max-width: 1200px;
+    min-width: 905px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

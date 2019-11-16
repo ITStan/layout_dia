@@ -1,0 +1,78 @@
+.header {
+  height: 898px;
+  display: block;
+  background: $bright-color;
+  background: linear-gradient(115deg, $bright-color 0%, $bright-color 77%, $bg-color 0%, $bg-color 100%);
+
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 85px;
+  }
+
+  &__logo {
+    width: 53px;
+    height: 32px;
+    margin-right: 12%;
+  }
+
+  &__nav {
+    width: 60%;
+  }
+
+  &__middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading,
+  &__paragraph,
+  &__button {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  &__heading {
+    max-width: 754px;
+    font-weight: 900;
+    font-size: 64px;
+    color: $light-color;
+    margin-bottom: 20px;
+  }
+
+  &__paragraph {
+    max-width: 754px;
+    font-size: 24px;
+    color: $light-color;
+    margin-bottom: 22px;
+  }
+
+  &__button {
+    margin-top: 42px;
+    margin-bottom: 80px;
+  }
+
+  &__slider {
+    height: 640px;
+    position: relative;
+  }
+
+  &__social-links {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    display: flex;
+    justify-content: space-around;
+    transform: rotate(90deg) translate(0, -100%);
+  }
+
+  &__social-link {
+    font-size: 12.6;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $dark-color;
+  }
+}

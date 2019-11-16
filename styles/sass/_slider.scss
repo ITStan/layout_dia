@@ -1,0 +1,58 @@
+.slider {
+  &__image {
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+  }
+
+  &__signature {
+    position: absolute;
+    width: 264px;
+    left: 98px;
+    bottom: 86px;
+  }
+
+  &__title {
+    font-size: 12.6px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $bright-color;
+  }
+
+  &__text {
+    font-size: 19.6px;
+    line-height: 1.4;
+    font-weight: 900;
+    color: $light-color;
+  }
+
+  &__arrow {
+    width: 81px;
+    height: 64px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 32px);
+    background-color: $active-color;
+
+    &_left {
+      left: -81px;
+      border-radius: 64px 0 0 64px;
+    }
+
+    &_right {
+      left: 0;
+      border-radius: 0 64px 64px 0;
+    }
+
+    &__image {
+      width: 12px;
+      height: 24px;
+      margin: auto;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
