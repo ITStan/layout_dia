@@ -1,0 +1,29 @@
+.features {
+  background-image: url(../../images/features/features-bg-blue.png);
+  background-size: cover;
+
+  &__list {
+    width: 40%;
+    padding: 199px 0 160px;
+  }
+
+  &__subtitle {
+    padding-bottom: 69px;
+  }
+
+  &__item {
+    display: flex;
+    padding-bottom: 64px;
+  }
+
+  &__text {
+    color: $light-color;
+    padding-left: 32px;
+  }
+
+  &__img {
+    width: 64px;
+    height: 64px;
+    padding-top: 10px;
+  }
+}

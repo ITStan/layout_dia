@@ -1,33 +1,38 @@
-h1, h2, h4 {
+h2, h3, h5 {
   font-weight: 900;
   color:$dark-color;
 }
 
 h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+
+h2 {
   font-size: 48px;
   text-align: center;
 }
 
-h2 {
+h3 {
   font-size: 32px;
   line-height: 140%;
 }
 
-h3 {
+h4 {
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-size: 19.6px;
   line-height: 140%;
 }
 
-.subtitle-bright {
+.subtitle-bright,
+.subtitle-light {
   display: flex;
-  color: $bright-color;
   margin-bottom: 21px;
 
   &_img {
@@ -35,4 +40,12 @@ h4 {
     height: 21px;
     margin-right: 16px;
   }
+}
+
+.subtitle-bright {
+  color: $bright-color;
+}
+
+.subtitle-light {
+  color: $light-color;
 }

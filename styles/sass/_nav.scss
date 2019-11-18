@@ -10,6 +10,10 @@
         background-color: $active-color;
       }
     }
+
+    &:last-child {
+      margin-left: 10%;
+    }
   }
 
   &__link {
