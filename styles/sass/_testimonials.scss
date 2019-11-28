@@ -1,0 +1,133 @@
+.testimonials {
+  position: relative;
+
+  &__info {
+    width: 40%;
+    padding-top: 166px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 86px 20px 20px 20px;
+  }
+
+  &__card {
+    width: 314px;
+    height: 464px;
+    padding: 40px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: $light-color;
+    box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 162px;
+      width: 64px;
+      top: 40px;
+      left: calc(50% - 32px);
+      transform: rotate(35deg);
+      border-radius: 32px;
+    }
+
+    &:nth-child(1) {
+      &::before {
+        background-color: $bright-color;
+      }
+    }
+
+    &:nth-child(2) {
+      &::before {
+        background-color: $active-color;
+      }
+    }
+
+    &:nth-child(3) {
+      &::before {
+        background-color: $process-color-1;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: .5s;
+    }
+  }
+
+  &__img-container {
+    width: 64px;
+    height: 124px;
+    margin: 50px auto 16px;
+    overflow: hidden;
+    border-radius: 32px;
+    transform: rotate(-20deg);
+  }
+
+  &__img {
+    width: 64px;
+    height: 124px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transform: rotate(20deg) scale(1.29);
+  }
+
+  &__text {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  &__line {
+    width: 64px;
+    height: 2px;
+    margin: 31px auto;
+    display: block;
+    border-radius: 2px;
+    content: "";
+
+    &-1 {
+      background: $bright-color;
+    }
+
+    &-2 {
+      background: $active-color;
+    }
+
+    &-3 {
+      background: $process-color-1;
+    }
+
+  }
+
+
+
+  &__name {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  &__position {
+    font-weight: 800;
+    font-size: 12.6px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $bright-color;
+
+    &-1 {
+      color: $bright-color;
+    }
+
+    &-2 {
+      color: $active-color;
+    }
+
+    &-3 {
+      color: $process-color-1;
+    }
+  }
+}
