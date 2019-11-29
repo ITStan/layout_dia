@@ -80,6 +80,11 @@
         }
       }
     }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: .5s;
+    }
   }
 
   &__item-number {

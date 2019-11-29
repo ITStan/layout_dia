@@ -1,0 +1,106 @@
+.figure {
+  border: 3px solid;
+  border-radius: 500px;
+  transform: rotate(-65deg);
+  position: absolute;
+  opacity: 0.5;
+  z-index: 0;
+
+  &__1 {
+    width: 86px;
+    height: 34px;
+    left: 233px;
+    top: 140px;
+    border-color: $figure-orange-color;
+  }
+
+  &__2 {
+    width: 45px;
+    height: 18px;
+    left: 446px;
+    top: 106px;
+    border-color: $active-color;
+  }
+
+  &__3 {
+    width: 67px;
+    height: 27px;
+    left: 82px;
+    top: 419px;
+    color: $bright-color;
+  }
+
+  &__4 {
+    width: 143px;
+    height: 56px;
+    left: 269px;
+    top: 400px;
+    color: $figure-light-green-color;
+  }
+
+  &__5 {
+    width: 94px;
+    height: 37px;
+    left: 131px;
+    top: 591px;
+    color:$figure-lilac-color;
+  }
+
+  &__6 {
+    width: 45px;
+    height: 18px;
+    left: 481px;
+    top: 494px;
+    color: $active-color;
+  }
+
+  &__7 {
+    width: 143px;
+    height: 57px;
+    right: 215px;
+    top: 249px;
+    color: $figure-light-green-color;
+  }
+
+  &__8 {
+    width: 54px;
+    height: 21px;
+    right: 111px;
+    top: 146px;
+    color: $figure-lilac-color;
+  }
+
+  &__9 {
+    color: $active-color;
+    width: 86px;
+    height: 34px;
+    right: 67px;
+    top: 343px;
+  }
+
+  &__10 {
+    width: 45px;
+    height: 18px;
+    right: 552px;
+    top: 543px;
+    color: $figure-lilac-color;
+  }
+
+  &__11 {
+    width: 86px;
+    height: 34px;
+    right: 314px;
+    top: 451px;
+    color: $figure-orange-color;
+  }
+
+  &__12 {
+    width: 154px;
+    height: 61px;
+    right: 143px;
+    top: 540px;
+    color: $bright-color;
+  }
+
+
+}

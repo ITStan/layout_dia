@@ -1,0 +1,25 @@
+.vision {
+  padding: 160px 0 257px;
+  width: 60%;
+  max-width: 754px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    padding-bottom: 57px;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 55px;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
+
+  &__figures {
+    position: relative;
+  }
+}
